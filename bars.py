@@ -24,6 +24,7 @@ index_nearest = 0
 
 # for item in data 
 for i in range(len(data)):
+#   uncomment for verbose logging
 #   print("Processing item : " + str(i + 1) + " with ID : " + data[i]["ID"])
     if data[i]["SeatsCount"] > max_seats:
         max_seats = data[i]["SeatsCount"]
